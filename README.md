@@ -39,7 +39,7 @@
 
 ## 4. **Configure Prometheus Server**
 
-   - Copy the SSL certificate files (`myprometheusdomain.one.crt` and `myprometheusdomain.one.key`) to the Prometheus server's configuration directory.
+   - Copy the SSL certificate files (`myprometheusdomain.one.cer` and `myprometheusdomain.one.key`) to the Prometheus server's configuration directory.
 
 
    - Create the file  `web.yml` configuration file  at  `/etc/prometheus/` to enable TLS and specify the paths to the certificate and key files :
