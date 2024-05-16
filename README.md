@@ -1,8 +1,9 @@
 
 
+
 ## 1.  Register a Domain
 
-   - Go to freedomain.one and register a domain name for your server. For example, `myprometheusdomain.one`.
+   - Go to [freedomain.one](https://freedomain.one/) and register a domain name for your server. For example, `myprometheusdomain.one`.
    - Take public Ip of your machine or ec2 as "A" DNS RECORD
 
     
@@ -105,9 +106,9 @@ htpasswd -nBC 12 "" | tr -d ':\n'
 
 or run node exporter directly 
 
-		```
-		prometheus-node-exporter --web.config.file="/root/web.yml" &
-		```
+```
+prometheus-node-exporter --web.config.file="/root/web.yml" &
+```
 
 
 # grafana 
