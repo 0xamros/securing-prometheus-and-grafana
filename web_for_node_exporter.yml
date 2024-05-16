@@ -1,0 +1,5 @@
+tls_server_config:
+  cert_file: "/home/ubuntu/iti44.work.gd.cer"
+  key_file: "/home/ubuntu/iti44.work.gd.key"
+basic_auth_users:
+    amr: $2y$12$39cox9GNfKnn74zSkGOc8eBkovvyJe4btHzVQCb2EEZu44UgItAKa
