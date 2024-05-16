@@ -151,7 +151,6 @@ cert_file = /etc/grafana/grafana.crt
 ```
 Once done, save and exit the file. Proceed by restarting the Grafana service:
 
-Bash
 
 ```
 sudo service grafana-server restart
