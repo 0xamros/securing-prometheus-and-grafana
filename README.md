@@ -4,7 +4,7 @@
 ## 1.  Register a Domain
 
    - Go to [freedomain.one](https://freedomain.one/) and register a domain name for your server. For example, `myprometheusdomain.one`.
-   - Take public Ip of your machine or ec2 as "A" DNS RECORD
+   - Take the public Ip of your machine or ec2 as "A" DNS RECORD
 
     
 # Prometheus 
