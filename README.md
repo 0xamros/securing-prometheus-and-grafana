@@ -104,6 +104,7 @@ htpasswd -nBC 12 "" | tr -d ':\n'
    - After making the necessary configuration changes, restart both the Prometheus server and the Prometheus Node Exporter.
 
 or run node exporter directly 
+
 		```
 		prometheus-node-exporter --web.config.file="/root/web.yml" &
 		```
